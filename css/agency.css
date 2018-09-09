@@ -480,6 +480,10 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.modal {
+  -webkit-overflow-scrolling: touch;
+}
+
 .portfolio-modal {
   padding-right: 0px !important;
 }
@@ -937,6 +941,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+}
+
+.modal {
+  -webkit-overflow-scrolling: touch;
 }
 
 .portfolio-modal {

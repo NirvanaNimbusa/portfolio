@@ -70,8 +70,10 @@
     }
   }
 }
-
-.portfolio-modal {
+.modal {
+  -webkit-overflow-scrolling: touch;
+}
+.portfolio-modal { 
   padding-right: 0px !important;
   .modal-dialog {
     margin: 1rem;
