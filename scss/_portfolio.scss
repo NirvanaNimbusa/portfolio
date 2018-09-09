@@ -82,6 +82,10 @@
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
+      word-wrap: break-word;
+      @media (max-width: 425px) {
+          font-size: 30px;
+        }
     }
     p {
       margin-bottom: 30px;
@@ -107,8 +111,8 @@
     position: absolute;
     top: 25px;
     right: 25px;
-    width: 75px;
-    height: 75px;
+    width: 45px;
+    height: 45px;
     cursor: pointer;
     background-color: transparent;
     &:hover {
@@ -118,7 +122,7 @@
       /* Safari and Chrome */
       z-index: 1051;
       width: 1px;
-      height: 75px;
+      height: 45px;
       margin-left: 35px;
       /* IE 9 */
       -webkit-transform: rotate(45deg);
@@ -129,7 +133,7 @@
         /* Safari and Chrome */
         z-index: 1052;
         width: 1px;
-        height: 75px;
+        height: 45px;
         /* IE 9 */
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);

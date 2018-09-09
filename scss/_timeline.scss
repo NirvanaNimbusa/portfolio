@@ -2,6 +2,9 @@
 .timeline {
   .timeline-item {
     padding-bottom: 300px;
+    @media (max-width: 425px) {
+      padding-bottom: 450px; 
+    }
   }
   position: relative;
   padding: 0;

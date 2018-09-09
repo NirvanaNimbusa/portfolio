@@ -1,5 +1,7 @@
 // Styling for the team section
 .feedback-member {
+  display: flex;
+  flex-direction: column;
   .portfolio-link {
     color: #298be4;
   }

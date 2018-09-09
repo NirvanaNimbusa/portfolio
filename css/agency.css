@@ -376,6 +376,10 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 20px;
 }
 
+.knowledge {
+  margin-top: 100px;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -470,6 +474,13 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content h2 {
   font-size: 3em;
   margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+@media (max-width: 425px) {
+  .portfolio-modal .modal-content h2 {
+    font-size: 30px;
+  }
 }
 
 .portfolio-modal .modal-content p {
@@ -500,8 +511,8 @@ header.masthead .intro-text .intro-heading {
   position: absolute;
   top: 25px;
   right: 25px;
-  width: 75px;
-  height: 75px;
+  width: 45px;
+  height: 45px;
   cursor: pointer;
   background-color: transparent;
 }
@@ -514,7 +525,7 @@ header.masthead .intro-text .intro-heading {
   /* Safari and Chrome */
   z-index: 1051;
   width: 1px;
-  height: 75px;
+  height: 45px;
   margin-left: 35px;
   /* IE 9 */
   -webkit-transform: rotate(45deg);
@@ -526,7 +537,7 @@ header.masthead .intro-text .intro-heading {
   /* Safari and Chrome */
   z-index: 1052;
   width: 1px;
-  height: 75px;
+  height: 45px;
   /* IE 9 */
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -541,6 +552,12 @@ header.masthead .intro-text .intro-heading {
 
 .timeline .timeline-item {
   padding-bottom: 300px;
+}
+
+@media (max-width: 425px) {
+  .timeline .timeline-item {
+    padding-bottom: 450px;
+  }
 }
 
 .timeline:before {
@@ -732,6 +749,13 @@ header.masthead .intro-text .intro-heading {
 }
 
 .feedback-member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: 50px;
   text-align: center;
 }
