@@ -376,8 +376,10 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 20px;
 }
 
-.knowledge {
-  margin-top: 100px;
+@media (max-width: 430px) {
+  .knowledge {
+    margin-top: 100px;
+  }
 }
 
 #portfolio .portfolio-item {
