@@ -87,6 +87,22 @@ section h3.section-subheading {
   background-color: #dee2e6;
 }
 
+@media (min-width: 768px) {
+  .tell-me-more-btn {
+    margin-top: 100px;
+  }
+}
+
+.go-top {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+.go-top.hidden {
+  display: none !important;
+}
+
 .btn {
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;

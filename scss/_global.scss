@@ -77,6 +77,20 @@ section {
   background-color: $gray-300;
 }
 
+.tell-me-more-btn {
+    @media (min-width: 768px){
+    margin-top: 100px;
+  }
+}
+.go-top {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  &.hidden {
+    display: none !important;
+  }
+}
+
 // Button Styles
 .btn {
   @include heading-font;
