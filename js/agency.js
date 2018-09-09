@@ -31,15 +31,15 @@
   var navbarCollapse = function () {
     var st = $(this).scrollTop();
     if (st > lastScrollTop) {
-      $("#goTop").addClass("hidden");
+      $(".go-top").addClass("hidden");
     } else {
-      $("#goTop").removeClass("hidden");
+      $(".go-top").removeClass("hidden");
     }
     lastScrollTop = st;
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
     } else {
-      $("#goTop").addClass("hidden");
+      $(".go-top").addClass("hidden");
       $("#mainNav").removeClass("navbar-shrink");
     }
   };
