@@ -94,13 +94,28 @@ section h3.section-subheading {
 }
 
 .go-top {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
+  font-size: 30px;
   position: fixed;
   bottom: 5px;
   right: 5px;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .go-top.hidden {
-  display: none !important;
+  -webkit-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .btn {
@@ -221,6 +236,7 @@ section#contact :-ms-input-placeholder {
 }
 
 #mainNav .navbar-toggler {
+  height: 38px;
   font-size: 12px;
   right: 0;
   padding: 13px;
@@ -241,6 +257,7 @@ section#contact :-ms-input-placeholder {
 }
 
 #mainNav .navbar-lang {
+  height: 38px;
   cursor: pointer;
   padding: .5em;
   font-size: 1em;
