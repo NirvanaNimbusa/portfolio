@@ -775,6 +775,12 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.feedback-intro {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
 .feedback-member {
   display: -webkit-box;
   display: -ms-flexbox;
