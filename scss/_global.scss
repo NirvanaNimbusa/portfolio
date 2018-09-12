@@ -145,3 +145,22 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+#education {
+  .education-row{
+    justify-content: space-around;
+  }
+  .portfolio-item {
+    .study-title {
+      height: auto;
+      &:hover {
+        box-shadow: 3px 0px 25px #989898;    
+      }
+      text-align: center;
+      background: $white;
+    padding: 10px;
+    margin: 10px;
+    }
+  }
+  
+}

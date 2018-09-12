@@ -166,6 +166,24 @@ img::-moz-selection {
   background: transparent;
 }
 
+#education .education-row {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+#education .portfolio-item .study-title {
+  height: auto;
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
+}
+
+#education .portfolio-item .study-title:hover {
+  -webkit-box-shadow: 3px 0px 25px #989898;
+  box-shadow: 3px 0px 25px #989898;
+}
+
 section#contact {
   padding: 300px 0;
   background-color: #212529;
