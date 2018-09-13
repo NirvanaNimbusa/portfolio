@@ -849,6 +849,22 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
 }
 
+.feedback-member .rounded-circle {
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in;
+  transition: -webkit-box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in, -webkit-box-shadow 0.3s ease-in;
+}
+
+.feedback-member .rounded-circle:hover {
+  -webkit-box-shadow: 3px 0px 25px #989898;
+  box-shadow: 3px 0px 25px #989898;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in;
+  transition: -webkit-box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in, -webkit-box-shadow 0.3s ease-in;
+}
+
 .feedback-member .portfolio-link {
   color: #298be4;
 }

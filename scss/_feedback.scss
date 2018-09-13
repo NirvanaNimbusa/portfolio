@@ -5,6 +5,13 @@
     margin-bottom: 100px;
 }
 .feedback-member {
+  .rounded-circle {
+    transition: box-shadow 0.3s ease-in;
+    &:hover {
+      box-shadow: 3px 0px 25px #989898; 
+      transition: box-shadow 0.3s ease-in;
+    }
+  }
   display: flex;
   flex-direction: column;
   .portfolio-link {
