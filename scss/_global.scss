@@ -153,8 +153,10 @@ img::-moz-selection {
   .portfolio-item {
     .study-title {
       height: auto;
+      transition: box-shadow 0.3s ease-in;
       &:hover {
-        box-shadow: 3px 0px 25px #989898;    
+        box-shadow: 3px 0px 25px #989898; 
+        transition: box-shadow 0.3s ease-in;
       }
       text-align: center;
       background: $white;

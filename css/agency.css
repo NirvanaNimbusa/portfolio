@@ -173,6 +173,10 @@ img::-moz-selection {
 
 #education .portfolio-item .study-title {
   height: auto;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in;
+  transition: -webkit-box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in, -webkit-box-shadow 0.3s ease-in;
   text-align: center;
   background: #fff;
   padding: 10px;
@@ -182,6 +186,10 @@ img::-moz-selection {
 #education .portfolio-item .study-title:hover {
   -webkit-box-shadow: 3px 0px 25px #989898;
   box-shadow: 3px 0px 25px #989898;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in;
+  transition: -webkit-box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in, -webkit-box-shadow 0.3s ease-in;
 }
 
 section#contact {
@@ -671,6 +679,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 .timeline > li .timeline-image {
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in;
+  transition: -webkit-box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in, -webkit-box-shadow 0.3s ease-in;
   position: absolute;
   z-index: 100;
   left: 0;
@@ -682,6 +694,15 @@ header.masthead .intro-text .intro-heading {
   border: 7px solid #e9ecef;
   border-radius: 100%;
   background-color: #fed136;
+}
+
+.timeline > li .timeline-image:hover {
+  -webkit-box-shadow: 3px 0px 25px #989898;
+  box-shadow: 3px 0px 25px #989898;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in;
+  transition: -webkit-box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in;
+  transition: box-shadow 0.3s ease-in, -webkit-box-shadow 0.3s ease-in;
 }
 
 .timeline > li .timeline-image h4 {

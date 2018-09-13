@@ -51,6 +51,11 @@
       }
     }
     .timeline-image {
+      transition: box-shadow 0.3s ease-in;
+      &:hover {
+        box-shadow: 3px 0px 25px #989898; 
+        transition: box-shadow 0.3s ease-in;
+      }
       position: absolute;
       z-index: 100;
       left: 0;
