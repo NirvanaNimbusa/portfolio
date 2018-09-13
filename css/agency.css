@@ -200,6 +200,10 @@ section#contact {
   background-position: center;
 }
 
+section#contact .white-text {
+  color: #fff;
+}
+
 section#contact .section-heading {
   color: #fff;
 }
